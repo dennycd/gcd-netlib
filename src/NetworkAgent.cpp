@@ -319,7 +319,7 @@ namespace libgcdnet {
                 fcntl(client_sock, F_SETFL, O_NONBLOCK);//avoid blocking read/write operation
                 
                 //assign a dispatch queue to handle the async socket read/write I/O 
-                std::ostringstream oss; oss<< "com.dennycd.engine.network.session." << "req" << requestID++ << "#" << client_sock;
+                std::ostringstream oss; oss<< "ibgcdnet.engine.network.session." << "req" << requestID++ << "#" << client_sock;
                 dispatch_queue_t myqueue = dispatch_queue_create(oss.str().c_str(), NULL);
                 if(!myqueue)
                     throw NetworkAgentException("failed to create dispach queue");
@@ -483,7 +483,7 @@ namespace libgcdnet {
         NetworkAgent::NetworkAgent(Mode mode, NetworkAgentDispatcherDelegate *d) 
         : _mode(mode), _dispatcher(d)
         {
-            _workqueue = dispatch_queue_create("com.dennycd.engine.NetworkAgent", NULL);
+            _workqueue = dispatch_queue_create("libgcdnet.engine.NetworkAgent", NULL);
         }
         
         NetworkAgent::~NetworkAgent()
