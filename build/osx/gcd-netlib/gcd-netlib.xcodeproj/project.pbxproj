@@ -46,6 +46,7 @@
 		3EB6A1A71781421A005A2784 /* gcd-netlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gcd-netlib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB6A1A91781421A005A2784 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3EB6A1AB1781421A005A2784 /* gcd_netlib.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gcd_netlib.1; sourceTree = "<group>"; };
+		3EB6A1B3178143BF005A2784 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		3EB6A16C17813CA2005A2784 = {
 			isa = PBXGroup;
 			children = (
+				3EB6A1B3178143BF005A2784 /* README.md */,
 				3EB6A18117813CC9005A2784 /* src */,
 				3EB6A1A0178141F4005A2784 /* gcd-netlib */,
 				3EB6A18D17813EB3005A2784 /* gcd-netlib-test */,
