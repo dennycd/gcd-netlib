@@ -14,8 +14,11 @@ The library is cross-platform with build system available for Mac OS, Linux, Nod
 const char* hostname = "localhost";
 const char* servname = "8888";
 
-libgcdnet::NetworkAgent server(NetworkAgent::SERVER, NULL); server.listen(NULL, servname);
-libgcdnet::NetworkAgent client(NetworkAgent::CLIENT,NULL); client.connect(hostname, servname);
+libgcdnet::NetworkAgent server(NetworkAgent::SERVER, NULL); 
+server.listen(NULL, servname);
+
+libgcdnet::NetworkAgent client(NetworkAgent::CLIENT,NULL); 
+client.connect(hostname, servname);
 
 ```
 
