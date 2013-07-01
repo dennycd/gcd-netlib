@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>663CB61F-CC71-40A3-B9DA-09BD9CAAA9C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>gcd-netlib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6E39F81-EDBA-421D-9AE2-F3F4CFB4929D</key>
+		<string>https://github.com/dennycd/gcd-netlib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>build/osx/gcd-netlib/gcd-netlib.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6E39F81-EDBA-421D-9AE2-F3F4CFB4929D</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dennycd/gcd-netlib.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6E39F81-EDBA-421D-9AE2-F3F4CFB4929D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6E39F81-EDBA-421D-9AE2-F3F4CFB4929D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gcd-netlib</string>
+		</dict>
+	</array>
+</dict>
+</plist>
