@@ -1,0 +1,16 @@
+PODS:
+  - gcd-netlib (0.1.0)
+
+DEPENDENCIES:
+  - gcd-netlib (from `../`)
+
+EXTERNAL SOURCES:
+  gcd-netlib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  gcd-netlib: c8d69900d26b11fba737dd2b3cef12a234491653
+
+PODFILE CHECKSUM: b45dbacb22c7030b818b6ad5bfa6fe9af96dc0d6
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'gcd-netlib_Tests' do
+  pod 'gcd-netlib', :path => '../'
+  
+  
+end
