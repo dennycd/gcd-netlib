@@ -1,29 +1,29 @@
-## A C++ Networking Library Built on Libdispatch GCD
+# gcd-netlib
 
-A TCP socket networking library built on top of Apple's grand central dispatch (libdispatch). 
- * internal serial dispatch queue for IO processing
- * listener and delegate callback using blocks
- * non-blocking socket I/O
+[![CI Status](http://img.shields.io/travis/Denny C. Dai/gcd-netlib.svg?style=flat)](https://travis-ci.org/Denny C. Dai/gcd-netlib)
+[![Version](https://img.shields.io/cocoapods/v/gcd-netlib.svg?style=flat)](http://cocoapods.org/pods/gcd-netlib)
+[![License](https://img.shields.io/cocoapods/l/gcd-netlib.svg?style=flat)](http://cocoapods.org/pods/gcd-netlib)
+[![Platform](https://img.shields.io/cocoapods/p/gcd-netlib.svg?style=flat)](http://cocoapods.org/pods/gcd-netlib)
 
-The library is cross-platform with build system available for Mac OS, Linux, Node.js and iOS.
+## Example
 
-### Usage
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-```cpp
-        
-const char* hostname = "localhost";
-const char* servname = "8888";
+## Requirements
 
-libgcdnet::NetworkAgent server(NetworkAgent::SERVER, NULL); 
-server.listen(NULL, servname);
+## Installation
 
-libgcdnet::NetworkAgent client(NetworkAgent::CLIENT,NULL); 
-client.connect(hostname, servname);
+gcd-netlib is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
+```ruby
+pod "gcd-netlib"
 ```
 
-## Author 
-Denny C. Dai <dennycd@me.com> or visit <http://dennycd.me>
+## Author
 
-## License 
-[MIT License](http://opensource.org/licenses/MIT)
+Denny C. Dai, dennycd@me.com
+
+## License
+
+gcd-netlib is available under the MIT license. See the LICENSE file for more info.

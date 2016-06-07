@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'gcd-netlib_Example' do
+  pod 'gcd-netlib', :path => '../'
+
+  target 'gcd-netlib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

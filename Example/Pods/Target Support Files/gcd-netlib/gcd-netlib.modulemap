@@ -1,0 +1,6 @@
+framework module gcd_netlib {
+  umbrella header "gcd-netlib-umbrella.h"
+
+  export *
+  module * { export * }
+}

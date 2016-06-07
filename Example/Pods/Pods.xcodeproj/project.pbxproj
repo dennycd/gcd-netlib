@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11176F16DAA3D529C33D4826475F73B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		42BD25A9981E6FA01C40B0D22330A535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		631FF883EC31A591FC4978A6516BE0E5 /* Pods-gcd-netlib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2101C150229CD771058971F027CCE /* Pods-gcd-netlib_Example-dummy.m */; };
+		7BA22F581368FFA5C4C3F811728389AC /* Pods-gcd-netlib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B3C2E51DB789A7070EDF44F0B1A3DB /* Pods-gcd-netlib_Tests-dummy.m */; };
+		8683ADC72C033DB19EEAAE4232B1BA14 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4601B24ED60513E63AF96B0A326B19 /* ReplaceMe.swift */; };
+		92639D3D4335556CA50E5F2321B8552B /* Pods-gcd-netlib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115FEB6C95D5E7F38C370F75586A7097 /* Pods-gcd-netlib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F7DB953C0717E3E41C60533C5AAAA2 /* gcd-netlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FFC95DDEA0CED174D95854C00ECAC9 /* gcd-netlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43A12179EA0F895EDC6F8CBE8CC1265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D6AB8E1B80E781505CF6B810A1544CFE /* Pods-gcd-netlib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BBD1F7C2FBF8117E2B095027B79D63 /* Pods-gcd-netlib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED79C9AD50B06D1F12D654CFC60E2E38 /* gcd-netlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A946A9E0304EFC417B065957B9CC293 /* gcd-netlib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FCB0B63B1F8768AAAD6EDA945CE8ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F914ECD0F6DC4C64B3704B3DEC49A0;
+			remoteInfo = "gcd-netlib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FFC95DDEA0CED174D95854C00ECAC9 /* gcd-netlib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gcd-netlib-umbrella.h"; sourceTree = "<group>"; };
+		04731D396867F797F863269B1BE0E807 /* gcd_netlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gcd_netlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C35664C2B31F5F14DF2AEDC282CC6F0 /* gcd-netlib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gcd-netlib-prefix.pch"; sourceTree = "<group>"; };
+		115FEB6C95D5E7F38C370F75586A7097 /* Pods-gcd-netlib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gcd-netlib_Example-umbrella.h"; sourceTree = "<group>"; };
+		11927F7E59B742899B499FB4775B81CC /* Pods_gcd_netlib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gcd_netlib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E2101C150229CD771058971F027CCE /* Pods-gcd-netlib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gcd-netlib_Example-dummy.m"; sourceTree = "<group>"; };
+		150730BCA6518AC162D5E0A5CD233A6F /* Pods-gcd-netlib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gcd-netlib_Example.modulemap"; sourceTree = "<group>"; };
+		15A13EBED5A74BCBE53E211EEED966DB /* Pods-gcd-netlib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gcd-netlib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C5537A8AF199A52BAC454D1C724C3BC /* Pods-gcd-netlib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcd-netlib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26C1E75BF1D93A969BE8AFFDE7ED92AE /* Pods-gcd-netlib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcd-netlib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29D73192C056C454FF850903F02F42C0 /* Pods-gcd-netlib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gcd-netlib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		307368E21910254982CF71EB49F88731 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3517C3572079FF0319ECEF1A6640DDC7 /* Pods-gcd-netlib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gcd-netlib_Tests.modulemap"; sourceTree = "<group>"; };
+		3B482380F73E7FE4F2B3C58FE3ED193A /* Pods_gcd_netlib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gcd_netlib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8E54232AEEE0835D164934F26F9FB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6F66F19D19D442C8D3236A69D13F8A /* Pods-gcd-netlib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcd-netlib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		56DFA93762AE1694200D327A0D452C2B /* Pods-gcd-netlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcd-netlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59BBD1F7C2FBF8117E2B095027B79D63 /* Pods-gcd-netlib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gcd-netlib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61D965BF864BCCA054905F4D125B372A /* Pods-gcd-netlib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcd-netlib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		64FD44403B1EC57F7BC65607BC545824 /* gcd-netlib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "gcd-netlib.xcconfig"; sourceTree = "<group>"; };
+		6A8B773116B5BD390FBFF69AEBCF5216 /* Pods-gcd-netlib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcd-netlib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6A946A9E0304EFC417B065957B9CC293 /* gcd-netlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "gcd-netlib-dummy.m"; sourceTree = "<group>"; };
+		76970BBCA71EEB7580B8D063E65FCCE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879B9BDB1CF16830BED583D8F52F8E09 /* gcd-netlib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "gcd-netlib.modulemap"; sourceTree = "<group>"; };
+		8C4601B24ED60513E63AF96B0A326B19 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8C1E77C16D70AC7F9AAAEC1594526E /* Pods-gcd-netlib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gcd-netlib_Tests-resources.sh"; sourceTree = "<group>"; };
+		A5C2C0A492C96DC70108F32EC1A54AB1 /* Pods-gcd-netlib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gcd-netlib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C65FDDF4C77670AC7AE9DF37BD144498 /* Pods-gcd-netlib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gcd-netlib_Example-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD8834F0F3908F0CE33BCFB243942122 /* Pods-gcd-netlib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gcd-netlib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E4B3C2E51DB789A7070EDF44F0B1A3DB /* Pods-gcd-netlib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gcd-netlib_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20DA59611CA9F97A2394213E9CD67F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43A12179EA0F895EDC6F8CBE8CC1265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0B57A9ACE38033AB27DF08F5AE439B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11176F16DAA3D529C33D4826475F73B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC50F17894F49FF0E37549E1A52F3F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD25A9981E6FA01C40B0D22330A535 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EDF5D4869E763EE8CB75AB5BF11C33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04731D396867F797F863269B1BE0E807 /* gcd_netlib.framework */,
+				3B482380F73E7FE4F2B3C58FE3ED193A /* Pods_gcd_netlib_Example.framework */,
+				11927F7E59B742899B499FB4775B81CC /* Pods_gcd_netlib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A1E3DF60211BB7AA5A319334C412E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91FCD014D662595DF5D4FA619F0B39F /* gcd-netlib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		578F193EBD043C4E0900CFE8E39BFB1F /* gcd-netlib */ = {
+			isa = PBXGroup;
+			children = (
+				91B9ADE0425CF594D70611D0B0E69176 /* Classes */,
+			);
+			path = "gcd-netlib";
+			sourceTree = "<group>";
+		};
+		595670C36C38685E93417AC089F3C4B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F47F0D83D9D2137CC56CBC52AA48B307 /* Pods-gcd-netlib_Example */,
+				7F762543EA930C9F7F1131317D05A993 /* Pods-gcd-netlib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				18A1E3DF60211BB7AA5A319334C412E0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0EDF5D4869E763EE8CB75AB5BF11C33E /* Products */,
+				595670C36C38685E93417AC089F3C4B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F762543EA930C9F7F1131317D05A993 /* Pods-gcd-netlib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8E54232AEEE0835D164934F26F9FB3 /* Info.plist */,
+				3517C3572079FF0319ECEF1A6640DDC7 /* Pods-gcd-netlib_Tests.modulemap */,
+				15A13EBED5A74BCBE53E211EEED966DB /* Pods-gcd-netlib_Tests-acknowledgements.markdown */,
+				26C1E75BF1D93A969BE8AFFDE7ED92AE /* Pods-gcd-netlib_Tests-acknowledgements.plist */,
+				E4B3C2E51DB789A7070EDF44F0B1A3DB /* Pods-gcd-netlib_Tests-dummy.m */,
+				DD8834F0F3908F0CE33BCFB243942122 /* Pods-gcd-netlib_Tests-frameworks.sh */,
+				9F8C1E77C16D70AC7F9AAAEC1594526E /* Pods-gcd-netlib_Tests-resources.sh */,
+				59BBD1F7C2FBF8117E2B095027B79D63 /* Pods-gcd-netlib_Tests-umbrella.h */,
+				1C5537A8AF199A52BAC454D1C724C3BC /* Pods-gcd-netlib_Tests.debug.xcconfig */,
+				6A8B773116B5BD390FBFF69AEBCF5216 /* Pods-gcd-netlib_Tests.release.xcconfig */,
+			);
+			name = "Pods-gcd-netlib_Tests";
+			path = "Target Support Files/Pods-gcd-netlib_Tests";
+			sourceTree = "<group>";
+		};
+		91B9ADE0425CF594D70611D0B0E69176 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C4601B24ED60513E63AF96B0A326B19 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AE54DD06410F97F1319E88513E3E88C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				879B9BDB1CF16830BED583D8F52F8E09 /* gcd-netlib.modulemap */,
+				64FD44403B1EC57F7BC65607BC545824 /* gcd-netlib.xcconfig */,
+				6A946A9E0304EFC417B065957B9CC293 /* gcd-netlib-dummy.m */,
+				0C35664C2B31F5F14DF2AEDC282CC6F0 /* gcd-netlib-prefix.pch */,
+				03FFC95DDEA0CED174D95854C00ECAC9 /* gcd-netlib-umbrella.h */,
+				76970BBCA71EEB7580B8D063E65FCCE1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/gcd-netlib";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91FCD014D662595DF5D4FA619F0B39F /* gcd-netlib */ = {
+			isa = PBXGroup;
+			children = (
+				578F193EBD043C4E0900CFE8E39BFB1F /* gcd-netlib */,
+				AE54DD06410F97F1319E88513E3E88C8 /* Support Files */,
+			);
+			name = "gcd-netlib";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F47F0D83D9D2137CC56CBC52AA48B307 /* Pods-gcd-netlib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				307368E21910254982CF71EB49F88731 /* Info.plist */,
+				150730BCA6518AC162D5E0A5CD233A6F /* Pods-gcd-netlib_Example.modulemap */,
+				A5C2C0A492C96DC70108F32EC1A54AB1 /* Pods-gcd-netlib_Example-acknowledgements.markdown */,
+				56DFA93762AE1694200D327A0D452C2B /* Pods-gcd-netlib_Example-acknowledgements.plist */,
+				12E2101C150229CD771058971F027CCE /* Pods-gcd-netlib_Example-dummy.m */,
+				29D73192C056C454FF850903F02F42C0 /* Pods-gcd-netlib_Example-frameworks.sh */,
+				C65FDDF4C77670AC7AE9DF37BD144498 /* Pods-gcd-netlib_Example-resources.sh */,
+				115FEB6C95D5E7F38C370F75586A7097 /* Pods-gcd-netlib_Example-umbrella.h */,
+				4D6F66F19D19D442C8D3236A69D13F8A /* Pods-gcd-netlib_Example.debug.xcconfig */,
+				61D965BF864BCCA054905F4D125B372A /* Pods-gcd-netlib_Example.release.xcconfig */,
+			);
+			name = "Pods-gcd-netlib_Example";
+			path = "Target Support Files/Pods-gcd-netlib_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06656D171C4FD3755364252D9154C006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92639D3D4335556CA50E5F2321B8552B /* Pods-gcd-netlib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121D6A036677FBDF24B65AF0D15B7716 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AB8E1B80E781505CF6B810A1544CFE /* Pods-gcd-netlib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D3698F265D1CE7A3950A1F7B643E8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F7DB953C0717E3E41C60533C5AAAA2 /* gcd-netlib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01F914ECD0F6DC4C64B3704B3DEC49A0 /* gcd-netlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D883792D2A480D718DD5C6B2A7246E9 /* Build configuration list for PBXNativeTarget "gcd-netlib" */;
+			buildPhases = (
+				37D5BA195A3ED5125FE7A1AC17EE4D51 /* Sources */,
+				A20DA59611CA9F97A2394213E9CD67F7 /* Frameworks */,
+				74D3698F265D1CE7A3950A1F7B643E8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gcd-netlib";
+			productName = "gcd-netlib";
+			productReference = 04731D396867F797F863269B1BE0E807 /* gcd_netlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1654D74527640EB4F6A7A6EC66FF7EC2 /* Pods-gcd-netlib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C2A94C1F6550EC9D0503ACE597DBB7 /* Build configuration list for PBXNativeTarget "Pods-gcd-netlib_Example" */;
+			buildPhases = (
+				27B83238CFDC08D0594B230410AE3A7E /* Sources */,
+				EC50F17894F49FF0E37549E1A52F3F87 /* Frameworks */,
+				06656D171C4FD3755364252D9154C006 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359E39130D003D790CBA6E197B4039AD /* PBXTargetDependency */,
+			);
+			name = "Pods-gcd-netlib_Example";
+			productName = "Pods-gcd-netlib_Example";
+			productReference = 3B482380F73E7FE4F2B3C58FE3ED193A /* Pods_gcd_netlib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		365842B7F4C0F0CD5FC1653750BB6655 /* Pods-gcd-netlib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376D9ED0DF5BBF15C078BE0828232F64 /* Build configuration list for PBXNativeTarget "Pods-gcd-netlib_Tests" */;
+			buildPhases = (
+				CAA2686A36AA239BE398D6FF56FA07F6 /* Sources */,
+				CB0B57A9ACE38033AB27DF08F5AE439B /* Frameworks */,
+				121D6A036677FBDF24B65AF0D15B7716 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gcd-netlib_Tests";
+			productName = "Pods-gcd-netlib_Tests";
+			productReference = 11927F7E59B742899B499FB4775B81CC /* Pods_gcd_netlib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EDF5D4869E763EE8CB75AB5BF11C33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F914ECD0F6DC4C64B3704B3DEC49A0 /* gcd-netlib */,
+				1654D74527640EB4F6A7A6EC66FF7EC2 /* Pods-gcd-netlib_Example */,
+				365842B7F4C0F0CD5FC1653750BB6655 /* Pods-gcd-netlib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B83238CFDC08D0594B230410AE3A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631FF883EC31A591FC4978A6516BE0E5 /* Pods-gcd-netlib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D5BA195A3ED5125FE7A1AC17EE4D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED79C9AD50B06D1F12D654CFC60E2E38 /* gcd-netlib-dummy.m in Sources */,
+				8683ADC72C033DB19EEAAE4232B1BA14 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA2686A36AA239BE398D6FF56FA07F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA22F581368FFA5C4C3F811728389AC /* Pods-gcd-netlib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359E39130D003D790CBA6E197B4039AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "gcd-netlib";
+			target = 01F914ECD0F6DC4C64B3704B3DEC49A0 /* gcd-netlib */;
+			targetProxy = 2FCB0B63B1F8768AAAD6EDA945CE8ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7826B65B83E1E4C82844C15F900F31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8B773116B5BD390FBFF69AEBCF5216 /* Pods-gcd-netlib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gcd-netlib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gcd-netlib_Tests/Pods-gcd-netlib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gcd_netlib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80852D378AB58EF72CA0729C9EB29D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5537A8AF199A52BAC454D1C724C3BC /* Pods-gcd-netlib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gcd-netlib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gcd-netlib_Tests/Pods-gcd-netlib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gcd_netlib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F752A626CA7CEE33BBB062A0E64185F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FD44403B1EC57F7BC65607BC545824 /* gcd-netlib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/gcd-netlib/gcd-netlib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/gcd-netlib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/gcd-netlib/gcd-netlib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = gcd_netlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E957B7BAC0505ADFAB400319101C2AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6F66F19D19D442C8D3236A69D13F8A /* Pods-gcd-netlib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gcd-netlib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gcd-netlib_Example/Pods-gcd-netlib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gcd_netlib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C126584E2AD98288FE707BD8C96A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FD44403B1EC57F7BC65607BC545824 /* gcd-netlib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/gcd-netlib/gcd-netlib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/gcd-netlib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/gcd-netlib/gcd-netlib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = gcd_netlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFE34C57A17F851F085DD72CBE566576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D965BF864BCCA054905F4D125B372A /* Pods-gcd-netlib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gcd-netlib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gcd-netlib_Example/Pods-gcd-netlib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gcd_netlib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C2A94C1F6550EC9D0503ACE597DBB7 /* Build configuration list for PBXNativeTarget "Pods-gcd-netlib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E957B7BAC0505ADFAB400319101C2AF8 /* Debug */,
+				FFE34C57A17F851F085DD72CBE566576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376D9ED0DF5BBF15C078BE0828232F64 /* Build configuration list for PBXNativeTarget "Pods-gcd-netlib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80852D378AB58EF72CA0729C9EB29D41 /* Debug */,
+				7826B65B83E1E4C82844C15F900F31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D883792D2A480D718DD5C6B2A7246E9 /* Build configuration list for PBXNativeTarget "gcd-netlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F752A626CA7CEE33BBB062A0E64185F /* Debug */,
+				E9C126584E2AD98288FE707BD8C96A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
